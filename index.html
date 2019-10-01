@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
     <!-- main css -->
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/popup.css">
     <style>
     html{
       scroll-behavior: smooth;
@@ -33,7 +34,7 @@
       border-radius: 10px;
     }
     ::-webkit-scrollbar-thumb:hover{
-      background: rgb(245, 243, 137);
+      background: rgb(167, 165, 77);
     }
     </style>
   </head>
@@ -177,7 +178,7 @@
     </section>
     <!--================ End Home Banner Area =================-->
 
-    <!--================ Start Feature Area =================-->
+    <!--================ Start Kompetensi Keahlian Area =================-->
     <section class="feature_area section_gap_top">
       <div id="feature">
       <div class="container">
@@ -199,10 +200,22 @@
                 <h4 class="mt-3 mb-2">Rekayasa Perangkat Lunak</h4>
                 <p>
                   Rekayasa Perangkat Lunak(RPL), atau dalam bahasa inggris disebut Software Engineering adalah salah satu 
-                  kompetensi keahlian yang mempelajari cara pengembangan perangkan lunak termasuk pembuatan,pemeliharaan, manajemen organisasi dan manajemen kualitas pengembangan perangkan lunak.
-                </p>
-              </div>
+                  kompetensi keahlian yang mempelajari cara pengembangan perangkan lunak</p>
+              </div><br>
+              <button class="genric-btn primary-border circle" id="myModalrpl">Selengkapnya</button>
+              <!-- The Modal -->
+              <div id="myModalrpl" class="modal">
+
+             <!-- Modal content -->
+              <div class="modal-content">
+              <span class="close">&times;</span>
+              <p> termasuk pembuatan,pemeliharaan, manajemen organisasi dan manajemen kualitas pengembangan perangkan lunak.
+              </p>
             </div>
+  
+          </div>
+            </div>
+            
           </div>
 
           <div class="col-lg-4 col-md-6">
@@ -211,10 +224,21 @@
               <div class="desc">
                 <h4 class="mt-3 mb-2">Teknik Komputer dan Jaringan</h4>
                 <p>
-                  Teknik Komputer Jaringan(TKJ), adalah kompetensi keahlian yang mempelajari cara perakitan dan perawatan perangkat keras komputer dan laptop. instalasi sistem operasi, analisis perancangan 
+                  Teknik Komputer Jaringan(TKJ), adalah kompetensi keahlian yang mempelajari cara perakitan dan perawatan perangkat keras komputer dan laptop. </p>
+              </div><br>
+              <button class="genric-btn primary-border circle" id="mymodaltkj">Selengkapnya</button>
+              <!-- The Modal -->
+              <div id="mymodaltkj" class="modal">
+
+             <!-- Modal content -->
+              <div class="modal-content">
+              <span class="close">&times;</span>
+              <p>instalasi sistem operasi, analisis perancangan 
                   kebutuhan server mulai instalasi hingga perawatannya, pembuatan website dan keamanan Jaringan serta manajemen jaringan LAN,WAN,internet
-                </p>
-              </div>
+            </p>
+            </div>
+  
+          </div>
             </div>
           </div>
 
@@ -227,7 +251,19 @@
                   One make creepeth, man bearing theira firmament won't great
                   heaven
                 </p>
-              </div>
+              </div><br>
+              <button class="genric-btn primary-border circle" id="modal">Selengkapnya</button>
+              <!-- The Modal -->
+              <div id="myModal" class="modal">
+
+             <!-- Modal content -->
+              <div class="modal-content">
+              <span class="close">&times;</span>
+              <p> termasuk pembuatan,pemeliharaan, manajemen organisasi dan manajemen kualitas pengembangan perangkan lunak.
+              </p>
+            </div>
+  
+          </div>
             </div>
           </div>
 
@@ -240,7 +276,19 @@
                   One make creepeth, man bearing theira firmament won't great
                   heaven
                 </p>
-              </div>
+              </div><br>
+              <button class="genric-btn primary-border circle" id="modal">Selengkapnya</button>
+              <!-- The Modal -->
+              <div id="myModal" class="modal">
+
+             <!-- Modal content -->
+              <div class="modal-content">
+              <span class="close">&times;</span>
+              <p> termasuk pembuatan,pemeliharaan, manajemen organisasi dan manajemen kualitas pengembangan perangkan lunak.
+              </p>
+            </div>
+  
+          </div>
             </div>
           </div>
 
@@ -253,7 +301,19 @@
                   One make creepeth, man bearing theira firmament won't great
                   heaven
                 </p>
-              </div>
+              </div><br>
+              <button class="genric-btn primary-border circle" id="modal">Selengkapnya</button>
+              <!-- The Modal -->
+              <div id="myModal" class="modal">
+
+             <!-- Modal content -->
+              <div class="modal-content">
+              <span class="close">&times;</span>
+              <p> termasuk pembuatan,pemeliharaan, manajemen organisasi dan manajemen kualitas pengembangan perangkan lunak.
+              </p>
+            </div>
+  
+          </div>
             </div>
           </div>
         </div>
@@ -261,9 +321,9 @@
       </div>
       </div>
     </section>
-    <!--================ End Feature Area =================-->
+    <!--================ End Kompetensi Keahlian Area =================-->
 
-    <!--================ Start Popular Courses Area =================-->
+    <!--================ Start Prestasi Sekolah Area =================-->
     <div class="popular_courses">
       <div class="container">
         <div class="row justify-content-center">
@@ -271,7 +331,7 @@
             <div class="main_title">
               <h2 class="mb-3">Prestasi sekolah</h2>
               <p>
-                Replenish man have thing gathering lights yielding shall you
+                Beragam prestasi yang diraih oleh siswa-siswi SMK Muhammadiyah 1 Yogyakarta
               </p>
             </div>
           </div>
@@ -285,31 +345,30 @@
                   <img class="img-fluid" src="img/courses/c1.jpg" alt="" />
                 </div>
                 <div class="course_content">
-                  <span class="price">$25</span>
-                  <span class="tag mb-4 d-inline-block">design</span>
+                  <span class="tag mb-4 d-inline-block">Non-Akademik</span>
                   <h4 class="mb-3">
-                    <a href="course-details.html">Custom Product Design</a>
+                    <a href="course-details.html">Juara 1 MTtQ Cabang Tartil Kemenag Kota Yogyakarta</a>
                   </h4>
                   <p>
                     One make creepeth man bearing their one firmament won't fowl
                     meat over sea
                   </p>
-                  <div
-                    class="course_meta d-flex justify-content-lg-between align-items-lg-center flex-lg-row flex-column mt-4"
-                  >
-                    <div class="authr_meta">
-                      <img src="img/courses/author1.png" alt="" />
-                      <span class="d-inline-block ml-2">Cameron</span>
-                    </div>
-                    <div class="mt-lg-0 mt-3">
-                      <span class="meta_info mr-4">
-                        <a href="#"> <i class="ti-user mr-2"></i>25 </a>
-                      </span>
-                      <span class="meta_info"
-                        ><a href="#"> <i class="ti-heart mr-2"></i>35 </a></span
-                      >
-                    </div>
-                  </div>
+                </div>
+              </div>
+
+              <div class="single_course">
+                <div class="course_head">
+                  <img class="img-fluid" src="img/courses/c1.jpg" alt="" />
+                </div>
+                <div class="course_content">
+                  <span class="tag mb-4 d-inline-block">Non-Akademik</span>
+                  <h4 class="mb-3">
+                    <a href="course-details.html">Juara 1 MTtQ Cabang Tartil Kemenag Kota Yogyakarta</a>
+                  </h4>
+                  <p>
+                    One make creepeth man bearing their one firmament won't fowl
+                    meat over sea
+                  </p>
                 </div>
               </div>
 
@@ -318,31 +377,14 @@
                   <img class="img-fluid" src="img/courses/c2.jpg" alt="" />
                 </div>
                 <div class="course_content">
-                  <span class="price">$25</span>
-                  <span class="tag mb-4 d-inline-block">design</span>
+                  <span class="tag mb-4 d-inline-block">Akademik</span>
                   <h4 class="mb-3">
-                    <a href="course-details.html">Social Media Network</a>
+                    <a href="course-details.html">Juara 2 lomba reportase Dinas Pariwisata kota Yogyakarta</a>
                   </h4>
                   <p>
                     One make creepeth man bearing their one firmament won't fowl
                     meat over sea
                   </p>
-                  <div
-                    class="course_meta d-flex justify-content-lg-between align-items-lg-center flex-lg-row flex-column mt-4"
-                  >
-                    <div class="authr_meta">
-                      <img src="img/courses/author2.png" alt="" />
-                      <span class="d-inline-block ml-2">Cameron</span>
-                    </div>
-                    <div class="mt-lg-0 mt-3">
-                      <span class="meta_info mr-4">
-                        <a href="#"> <i class="ti-user mr-2"></i>25 </a>
-                      </span>
-                      <span class="meta_info"
-                        ><a href="#"> <i class="ti-heart mr-2"></i>35 </a></span
-                      >
-                    </div>
-                  </div>
                 </div>
               </div>
 
@@ -351,31 +393,14 @@
                   <img class="img-fluid" src="img/courses/c3.jpg" alt="" />
                 </div>
                 <div class="course_content">
-                  <span class="price">$25</span>
-                  <span class="tag mb-4 d-inline-block">design</span>
+                  <span class="tag mb-4 d-inline-block">Akademik</span>
                   <h4 class="mb-3">
-                    <a href="course-details.html">Computer Engineering</a>
+                    <a href="course-details.html">Juara 1 film Dokumenter Terbaik</a>
                   </h4>
                   <p>
                     One make creepeth man bearing their one firmament won't fowl
                     meat over sea
                   </p>
-                  <div
-                    class="course_meta d-flex justify-content-lg-between align-items-lg-center flex-lg-row flex-column mt-4"
-                  >
-                    <div class="authr_meta">
-                      <img src="img/courses/author3.png" alt="" />
-                      <span class="d-inline-block ml-2">Cameron</span>
-                    </div>
-                    <div class="mt-lg-0 mt-3">
-                      <span class="meta_info mr-4">
-                        <a href="#"> <i class="ti-user mr-2"></i>25 </a>
-                      </span>
-                      <span class="meta_info"
-                        ><a href="#"> <i class="ti-heart mr-2"></i>35 </a></span
-                      >
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -383,7 +408,7 @@
         </div>
       </div>
     </div>
-    <!--================ End Popular Courses Area =================-->
+    <!--================ End Prestasi Sekolah Area =================-->
 
     <!--================ Start Registration Area =================
     <div class="section_gap registration_area">
@@ -469,18 +494,19 @@
             <div class="main_title">
               <h2 class="mb-3">Guru-guru berkompetensi</h2>
               <p>
-                Replenish man have thing gathering lights yielding shall you
+                Dengan tenaga pengajar yang sudah professional
               </p>
             </div>
           </div>
         </div>
         <div class="row justify-content-center d-flex align-items-center">
+          
           <div class="col-lg-3 col-md-6 col-sm-12 single-trainer">
             <div class="thumb d-flex justify-content-sm-center">
               <img class="img-fluid" src="img/trainer/t1.jpg" alt="" />
             </div>
             <div class="meta-text text-sm-center">
-              <h4>Eko Priyo Triasmoro</h4>
+              <h4>Eko Priyo Triasmoro, S.T.</h4>
               <p class="designation">Ketua kompetensi keahlian TKJ</p>
               <div class="mb-4">
                 <p>
@@ -502,7 +528,7 @@
               <img class="img-fluid" src="img/trainer/t2.jpg" alt="" />
             </div>
             <div class="meta-text text-sm-center">
-              <h4>Aditia Nurjaman</h4>
+              <h4>Aditia Nurjaman, S.Pd.</h4>
               <p class="designation">Guru kompetensi keahlian TKJ</p>
               <div class="mb-4">
                 <p>
@@ -524,7 +550,7 @@
               <img class="img-fluid" src="img/trainer/d.jpg" alt="" />
             </div>
             <div class="meta-text text-sm-center">
-              <h4>Wulantika Arini</h4>
+              <h4>Wulantika Arini, S.Pd</h4>
               <p class="designation">Ketua kompetensi keahlian RPL</p>
               <div class="mb-4">
                 <p>
@@ -546,8 +572,52 @@
               <img class="img-fluid" src="img/trainer/t4.jpg" alt="" />
             </div>
             <div class="meta-text text-sm-center">
-              <h4>Budi Putra Ramadhan</h4>
+              <h4>Budi Putra Ramadhan, S.Kom.</h4>
               <p class="designation">Guru kompetensi keahlian Multimedia dan PSPT</p>
+              <div class="mb-4">
+                <p>
+                  If you are looking at blank cassettes on the web, you may be
+                  very confused at the.
+                </p>
+              </div>
+              <div class="align-items-center justify-content-center d-flex">
+                <a href="#"><i class="ti-facebook"></i></a>
+                <a href="#"><i class="ti-twitter"></i></a>
+                <a href="#"><i class="ti-linkedin"></i></a>
+                <a href="#"><i class="ti-pinterest"></i></a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-6 col-sm-12 single-trainer">
+            <div class="thumb d-flex justify-content-sm-center">
+              <img class="img-fluid" src="img/trainer/post-img2.jpg" alt="" />
+            </div>
+            <div class="meta-text text-sm-center">
+              <h4>Endah Dwi Kurniawati, S.Sn.</h4>
+              <p class="designation">Guru kompetensi keahlian PSPT</p>
+              <div class="mb-4">
+                <p>
+                  If you are looking at blank cassettes on the web, you may be
+                  very confused at the.
+                </p>
+              </div>
+              <div class="align-items-center justify-content-center d-flex">
+                <a href="#"><i class="ti-facebook"></i></a>
+                <a href="#"><i class="ti-twitter"></i></a>
+                <a href="#"><i class="ti-linkedin"></i></a>
+                <a href="#"><i class="ti-pinterest"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12 single-trainer">
+            <div class="thumb d-flex justify-content-sm-center">
+              <img class="img-fluid" src="img/trainer/post-img1.jpg" alt="" />
+            </div>
+            <div class="meta-text text-sm-center">
+              <h4>Umi ‘Alimatul Khoiriyah, S.Kom.</h4>
+              <p class="designation">Guru kompetensi keahlian Multimedia dan RPL</p>
               <div class="mb-4">
                 <p>
                   If you are looking at blank cassettes on the web, you may be
@@ -588,7 +658,7 @@
               </div>
               <div class="event_details">
                 <div class="d-flex mb-4">
-                  <div class="date"><span>15</span> Oktober</div>
+                  <div class="date"><span>15</span> Oktober 2019</div>
 
                   <div class="time-location">
                     <p>
@@ -601,6 +671,56 @@
                 </div>
                 <p>
                   Pendaftaran siswa baru gelombang 1
+                </p>
+                <a href="https://smkmuh1-yog.sch.id" class="primary-btn rounded-0 mt-3">View Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="single_event position-relative">
+              <div class="event_thumb">
+                <img src="img/event/e1.jpg" alt="" />
+              </div>
+              <div class="event_details">
+                <div class="d-flex mb-4">
+                  <div class="date"><span>15</span> Desember 2019</div>
+
+                  <div class="time-location">
+                    <p>
+                      <span class="ti-time mr-2"></span> 12:00 AM - 12:30 AM
+                    </p>
+                    <p>
+                      <span class="ti-location-pin mr-2"></span> SMK Muhammadiyah 1 Yogyakarta
+                    </p>
+                  </div>
+                </div>
+                <p>
+                  Pendaftaran siswa baru gelombang 2
+                </p>
+                <a href="https://smkmuh1-yog.sch.id" class="primary-btn rounded-0 mt-3">View Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="single_event position-relative">
+              <div class="event_thumb">
+                <img src="img/event/e1.jpg" alt="" />
+              </div>
+              <div class="event_details">
+                <div class="d-flex mb-4">
+                  <div class="date"><span>15</span> Maret 2020</div>
+
+                  <div class="time-location">
+                    <p>
+                      <span class="ti-time mr-2"></span> 12:00 AM - 12:30 AM
+                    </p>
+                    <p>
+                      <span class="ti-location-pin mr-2"></span> SMK Muhammadiyah 1 Yogyakarta
+                    </p>
+                  </div>
+                </div>
+                <p>
+                  Pendaftaran siswa baru gelombang 3
                 </p>
                 <a href="https://smkmuh1-yog.sch.id" class="primary-btn rounded-0 mt-3">View Details</a>
               </div>
@@ -631,14 +751,6 @@
               </div>
             </div>
           </div>
-
-          <div class="col-lg-12">
-            <div class="text-center pt-lg-5 pt-3">
-              <a href="https://smkmuh1-yog.sch.id" class="event-link">
-                View All Event <img src="img/next.png" alt="" />
-              </a>
-            </div>
-          </div>
         </div>
       </div>
     </div>
@@ -652,7 +764,7 @@
             <div class="main_title">
               <h2 class="mb-3">Kesan alumni</h2>
               <p>
-                Replenish man have thing gathering lights yielding shall you
+                Kesan dari para alumni SMK Muhammadiyah 1 Yogyakarta
               </p>
             </div>
           </div>
@@ -813,44 +925,21 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-2 col-md-6 single-footer-widget">
-            <h4>Top Products</h4>
+            <h4>Oleh SMK MUHI</h4>
             <ul>
               <li><a href="#">KMuhi TV</a></li>
               <li><a href="#">Teaching Factory</a></li>
-              <li><a href="#">Power Tools</a></li>
-              <li><a href="#">Marketing Service</a></li>
             </ul>
           </div>
           <div class="col-lg-2 col-md-6 single-footer-widget">
-            <h4>Quick Links</h4>
+            <h4>Website SMK MUHI</h4>
             <ul>
               <li><a href="#">Website SMK</a></li>
-              <li><a href="#">Brand Assets</a></li>
-              <li><a href="#">Investor Relations</a></li>
-              <li><a href="#">Terms of Service</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-2 col-md-6 single-footer-widget">
-            <h4>Features</h4>
-            <ul>
-              <li><a href="#">Jobs</a></li>
-              <li><a href="#">Brand Assets</a></li>
-              <li><a href="#">Investor Relations</a></li>
-              <li><a href="#">Terms of Service</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-2 col-md-6 single-footer-widget">
-            <h4>Resources</h4>
-            <ul>
-              <li><a href="#">Guides</a></li>
-              <li><a href="#">Research</a></li>
-              <li><a href="#">Experts</a></li>
-              <li><a href="#">Agencies</a></li>
             </ul>
           </div>
           <div class="col-lg-4 col-md-6 single-footer-widget">
             <h4>Newsletter</h4>
-            <p>You can trust us. we only send promo offers,</p>
+            <p>Ikuti update terbaru tentang SMK Muhammadiyah 1 YK</p>
             <div class="form-wrap" id="mc_embed_signup">
               <form
                 target="_blank"
@@ -890,12 +979,6 @@
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> Team IT SMK Muh1 | This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
           </p>
-          <div class="col-lg-4 col-sm-12 footer-social">
-            <a href="#"><i class="ti-facebook"></i></a>
-            <a href="#"><i class="ti-twitter"></i></a>
-            <a href="#"><i class="ti-dribbble"></i></a>
-            <a href="#"><i class="ti-linkedin"></i></a>
-          </div>
         </div>
       </div>
     </footer>
@@ -911,6 +994,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Team 
     <script src="js/owl-carousel-thumb.min.js"></script>
     <script src="js/jquery.ajaxchimp.min.js"></script>
     <script src="js/mail-script.js"></script>
+    <script src="js/modal.js"></script>
     <!--gmaps Js-->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
     <script src="js/gmaps.min.js"></script>
